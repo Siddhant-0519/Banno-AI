@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "banno-ai"
+version = "0.1.0"
+description = "Virtual try on tool for traditinoal indian attire"
+authors = ["Siddhant-0519"]
+readme = "README.md"
+packages = [{include = "banno_ai"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.103.2"
+uvicorn = "^0.23.2"
+python-multipart = "^0.0.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
